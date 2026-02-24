@@ -1,0 +1,11 @@
+{
+  "projectId": "9cabde18-b7d6-4509-a1a8-676cda89acc5",
+  "createdAt": 1770582196024,
+  "version": "1.0",
+  "startupCommands": [
+    "bun install; bun run dev"
+  ],
+  "templateId": "nextjs",
+  "vercelProjectId": "prj_95T9Sd4AKLRUpXsawThVkJhOisNi",
+  "deployedWithUserToken": false
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /construction/
+
+Sitemap: https://fcs-concept.fr/sitemap.xml
+Host: https://fcs-concept.fr

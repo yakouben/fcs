@@ -1,0 +1,1872 @@
+2026-02-08T20:25:17.107Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+
+
+2026-02-08T20:25:17.113Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:17.145Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:17.107Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+
+
+2026-02-08T20:25:17.113Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:17.145Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:45.506Z [console][log] [Fast Refresh] done in 1508ms
+2026-02-08T20:26:15.699Z [console][log] [Fast Refresh] rebuilding
+2026-02-08T20:26:15.738Z [console][log] [Fast Refresh] done in 111ms
+2026-02-08T20:26:43.007Z [console][log] [Fast Refresh] rebuilding
+2026-02-08T20:26:43.052Z [console][log] [Fast Refresh] done in 145ms
+2026-02-08T20:25:25.352Z [network][POST 200] /__nextjs_original-stack-frames
+  request: {"frames":[{"file":"file:///Users/yakoub/orchids-projects/fcs-hero/node_modules/next/dist/server/dev/hot-reloader-turbopack.js","line1":775,"column1":59,"methodName":"Object.getCompilationErrors","arguments":[]},{"file":"file:///Users/yakoub/orchids-projects/fcs-hero/node_modules/next/dist/server/lib/dev-bundler-service.js","line1":39,"column1":55,"methodName":"DevBundlerService.getCompilationError","arguments":[]},{"file":"file:///Users/yakoub/orchids-projects/fcs-hero/node_modules/next/dist/server/dev/next-dev-server.js","line1":720,"column1":42,"methodName":"DevServer.getCompilationError","arguments":[]},{"file":"file:///Users/yakoub/orchids-projects/fcs-hero/node_modules/next/dist/server/dev/next-dev-server.js","line1":690,"column1":43,"methodName":"DevServer.findPageComponents","arguments":[]},{"file":"file:///Users/yakoub/orchids-projects/fcs-hero/node_modules/next/dist/server/base-server.js","line1":1687,"column1":26,"methodName":"async DevServer.renderErrorToResponseImpl","arguments":[]}],"isServer":true,"isEdgeServer":false,"isAppDirectory":true}
+  response: [{"status":"fulfilled","value":{"originalStackFrame":{"arguments":[],"file":"node_modules/next/src/server/dev/hot-reloader-turbopack.ts","line1":956,"column1":25,"ignored":true,"methodName":"Object.getCompilationErrors"},"originalCodeFrame":null}},{"status":"fulfilled","value":{"originalStackFrame":{"arguments":[],"file":"node_modules/next/src/server/lib/dev-bundler-service.ts","line1":52,"column1":51,"ignored":true,"methodName":"DevBundlerService.getCompilationError"},"originalCodeFrame":null}},{"status":"fulfilled","value":{"originalStackFrame":{"arguments":[],"file":"node_modules/next/src/server/dev/next-dev-server.ts","line1":1030,"column1":38,"ignored":true,"methodName":"DevServer.getCompilationError"},"originalCodeFrame":null}},{"status":"fulfilled","value":{"originalStackFrame":{"arguments":[],"file":"node_modules/next/src/server/dev/next-dev-server.ts","line1":994,"column1":39,"ignored":true,"methodName":"DevServer.findPageComponents"},"originalCodeFrame":null}},{"status":"fulfilled","value":{"originalStackFrame":{"arguments":[],"file":"node_modules/next/src/server/base-server.ts","line1":2807,"column1":18,"ignored":true,"methodName":"async DevServer.renderErrorToResponseImpl"},"originalCodeFrame":null}}]
+2026-02-08T20:25:17.107Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+
+
+2026-02-08T20:25:17.113Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:17.145Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:17.107Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+
+
+2026-02-08T20:25:17.113Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:17.145Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T20:25:17.145Z [console][error] ./orchids-projects/fcs-hero/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/yakoub/orchids-projects/fcs-hero/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/Users/yakoub/orchids-projects/fcs-hero/src/app'
+    [at Input.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at async LazyResult.runAsync (turbopack:///[project]/orchids-projects/fcs-hero/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/globals.css [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/layout.tsx [Server Component]
+2026-02-08T21:07:55.929Z [console][error] Image with src "/vue-8.webp" is using quality "60" which is not configured in images.qualities. This config will be required starting in Next.js 16.
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+2026-02-08T21:07:59.938Z [console][error] Image with src "/vue-6.webp" is using quality "60" which is not configured in images.qualities. This config will be required starting in Next.js 16.
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+2026-02-08T21:08:03.943Z [console][error] Image with src "/vue-7.webp" is using quality "60" which is not configured in images.qualities. This config will be required starting in Next.js 16.
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+2026-02-08T21:08:07.943Z [console][error] Image with src "/vue-5.webp" is using quality "60" which is not configured in images.qualities. This config will be required starting in Next.js 16.
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+2026-02-08T21:43:27.990Z [console][error] Uncaught ReferenceError: Building2 is not defined
+2026-02-08T21:43:38.066Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:43:52.557Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:43:27.990Z [console][error] Uncaught ReferenceError: Building2 is not defined
+2026-02-08T21:43:38.066Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:43:52.557Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:43:27.990Z [console][error] Uncaught ReferenceError: Building2 is not defined
+2026-02-08T21:43:38.066Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:43:52.557Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:43:27.990Z [console][error] Uncaught ReferenceError: Building2 is not defined
+2026-02-08T21:43:38.066Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:43:52.557Z [console][error] [Fast Refresh] performing full reload because your application had an unrecoverable error
+2026-02-08T21:48:18.710Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.403Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.447Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.674Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.775Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+
+2026-02-08T21:48:19.784Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.835Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.447Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.674Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.775Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+
+2026-02-08T21:48:19.784Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.835Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.784Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:48:19.835Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:40:25
+Ecmascript file had an error
+  38 | const AUTO_PLAY_INTERVAL = 4000;
+  39 |
+> 40 | export default function Home() {
+     |                         ^^^^
+  41 |   const [current, setCurrent] = useState(0);
+  42 |   const [scrolled, setScrolled] = useState(false);
+  43 |
+
+the name `Home` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-08T21:58:44.107Z [console][error] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree.
+2026-02-08T22:46:26.965Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ScrollAndFocusHandler segmentPath={[...]}>
+      <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+        <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+          <LoadingBoundary loading={null}>
+            <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+              <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                      <SegmentViewNode type="page" pagePath="/orchids-p...">
+                        <SegmentTrieNode>
+                        <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                          <HomePage params={Promise} searchParams={Promise}>
+                            <section data-orchids-id="src/app/pa..." data-orchids-name="section" ...>
+                              <nav>
+                              <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="mx-auto ma...">
+                                <div>
+                                <div>
+                                <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="relative f...">
+                                  <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="relative w...">
+                                    <svg>
+                                    ...
+                                      <motion.div data-orchids-id="src/app/pa..." data-orchids-name="motion.div" ...>
+                                        <div
+                                          data-orchids-id="src/app/page.tsx:177:18"
+                                          data-orchids-name="motion.div"
+                                          className="absolute inset-0 z-10"
+                                          style={{clipPath:"circle(150..."}}
+                                          ref={function useMotionRef.useCallback}
+-                                         data-orchid-ref="ref-ecio671dj7"
+                                        >
+                                          <div
+                                            data-orchids-id="src/app/page.tsx:185:20"
+                                            data-orchids-name="div"
+                                            className="relative w-full h-full"
+-                                           data-orchid-ref="ref-jb5feuwvrf"
+                                          >
+                                            <img
+                                              data-orchids-id="src/app/page.tsx:186:22"
+                                              data-orchids-name="img"
+                                              alt="Bakery counter with POS terminals and marble finish"
+                                              fetchPriority={undefined}
+                                              loading={undefined}
+                                              width={undefined}
+                                              height={... [truncated]
+2026-02-08T22:46:31.625Z [console][error] Image with src "/vue-7.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:46:35.628Z [console][error] Image with src "/vue-5.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:46:39.627Z [console][error] Image with src "/vue-8.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:46:43.620Z [console][error] Image with src "/vue-6.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:19:27.535Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary loading={null}>
+        <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                  <SegmentViewNode type="page" pagePath="/orchids-p...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                      <HomePage params={Promise} searchParams={Promise}>
+                        <section data-orchids-id="src/app/pa..." data-orchids-name="section" className="relative m...">
+                          <nav>
+                          <div>
+                          <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="mt-16 w-fu...">
+                            <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="flex anima...">
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span
+                                data-orchids-id="src/app/page.tsx:236:14"
+                                data-orchids-name="span"
+                                className="mx-8 text-sm md:text-base text-muted-foreground/60 font-serif italic tracki..."
+                                style={{fontFamily:"var(--font..."}}
+-                               data-orchid-ref="ref-h70hidlwso"
+                              >
++                               Fromagerie Bernard
+                              <span
+                                data-orchids-id="src/app/page.tsx:236:14"
+                                data-orchids-name="span"
+                                className="mx-8 text-sm md:text-base text-muted-foreground/60 font-serif italic tracki..."
+                                style={{fontFamily:"var(--font..."}}
+-                               data-orchid-ref="ref-g2hm1s16tf"
+                              >
++                               Traiteur Lefevre
+                              <span
+                                data-orchids-id="src/app/page.tsx:236:14"
+                                data-orchids-name="span"
+                                className="mx-8 text-sm md:text-base text-muted-foreground/60 font-serif italic tracki..."
+                                style={{fontFamily:"var(--font.... [truncated]
+2026-02-08T22:19:31.622Z [console][error] Image with src "/vue-7.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:19:35.621Z [console][error] Image with src "/vue-5.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:19:39.617Z [console][error] Image with src "/vue-8.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:19:43.612Z [console][error] Image with src "/vue-6.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:21:59.618Z [console][error] Image with src "/vue-7.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:22:03.607Z [console][error] Image with src "/vue-5.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:22:07.617Z [console][error] Image with src "/vue-8.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:22:11.612Z [console][error] Image with src "/vue-6.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:46:26.965Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ScrollAndFocusHandler segmentPath={[...]}>
+      <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+        <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+          <LoadingBoundary loading={null}>
+            <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+              <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                      <SegmentViewNode type="page" pagePath="/orchids-p...">
+                        <SegmentTrieNode>
+                        <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                          <HomePage params={Promise} searchParams={Promise}>
+                            <section data-orchids-id="src/app/pa..." data-orchids-name="section" ...>
+                              <nav>
+                              <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="mx-auto ma...">
+                                <div>
+                                <div>
+                                <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="relative f...">
+                                  <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="relative w...">
+                                    <svg>
+                                    ...
+                                      <motion.div data-orchids-id="src/app/pa..." data-orchids-name="motion.div" ...>
+                                        <div
+                                          data-orchids-id="src/app/page.tsx:177:18"
+                                          data-orchids-name="motion.div"
+                                          className="absolute inset-0 z-10"
+                                          style={{clipPath:"circle(150..."}}
+                                          ref={function useMotionRef.useCallback}
+-                                         data-orchid-ref="ref-ecio671dj7"
+                                        >
+                                          <div
+                                            data-orchids-id="src/app/page.tsx:185:20"
+                                            data-orchids-name="div"
+                                            className="relative w-full h-full"
+-                                           data-orchid-ref="ref-jb5feuwvrf"
+                                          >
+                                            <img
+                                              data-orchids-id="src/app/page.tsx:186:22"
+                                              data-orchids-name="img"
+                                              alt="Bakery counter with POS terminals and marble finish"
+                                              fetchPriority={undefined}
+                                              loading={undefined}
+                                              width={undefined}
+                                              height={... [truncated]
+2026-02-08T22:46:31.625Z [console][error] Image with src "/vue-7.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:46:35.628Z [console][error] Image with src "/vue-5.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:46:39.627Z [console][error] Image with src "/vue-8.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-08T22:46:43.620Z [console][error] Image with src "/vue-6.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+2026-02-09T11:02:54.812Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section
+                                data-orchids-id="src/app/page.tsx:75:4"
+                                data-orchids-name="section"
+                                className="relative min-h-svh w-full bg-background overflow-hidden"
+-                               data-orchid-ref="ref-opkimacwog"
+                              >
+                                <nav
+                                  data-orchids-id="src/app/page.tsx:77:6"
+                                  data-orchids-name="nav"
+                                  className="fixed top-4 left-1/2 -translate-x-1/2 z-50 flex items-center gap-1 rounde..."
+-                                 data-orchid-ref="ref-guhaxufshx"
+                                >
+                                  <img
+                                    data-orchids-id="src/app/page.tsx:84:10"
+                                    data-orchids-name="img"
+                                    alt="FCS Logo"
+                                    fetchPriority={undefined}
+                                    loading="lazy"
+                                    width={32}
+                                    height={32}
+                                    decoding="async"
+                                    data-nimg="1"
+                                    className="mx-2 rounded-full"
+                                    style={{color:"transparent"}}
+                                    sizes={undefined}
+                                    srcSet={"/_next/image?url=%2Flogo-fcs.png&w=32&q=75 1x, /_next/image?url=%2Flogo-..."}
+                                    src={"/_next/image?url=%2Flogo-fcs.png&w=64&q=75"}
+                                    ref={function}
+                                    onLoad={function onLoad}
+                                    onError={function onError}
+-                                   data-orchid-ref="ref-66sx0fvfpu"
+                                  >
+                                  <span
+                                    data-orchids-id="src/app/page.tsx:91:8"
+                                    data-orchids-name="span"
+                                    className="h-4 w-px bg-border"
+-                  ... [truncated]
+2026-02-09T12:14:29.879Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+
+2026-02-09T12:14:29.882Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.882Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.879Z [console][error] Uncaught Error: ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+
+2026-02-09T12:14:29.882Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.882Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.882Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.914Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.882Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx
+Error evaluating Node.js code
+SyntaxError: Unterminated JSX contents. (450:12)
+    [at toParseError (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parse-error.ts:95:45)]
+    [at TypeScriptParserMixin.raise (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:1507:19)]
+    [at TypeScriptParserMixin.jsxReadToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:104:22)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:596:14)]
+    [at TypeScriptParserMixin.getTokenFromCode (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/typescript/index.ts:4121:13)]
+    [at TypeScriptParserMixin.nextToken (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:279:10)]
+    [at TypeScriptParserMixin.next (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:122:10)]
+    [at TypeScriptParserMixin.eat (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/tokenizer/index.ts:127:12)]
+    [at TypeScriptParserMixin.expect (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/parser/util.ts:156:15)]
+    [at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/yakoub/orchids-projects/fcs-hero/node_modules/@babel/parser/src/plugins/jsx/index.ts:460:12)]
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:14:29.915Z [console][error] ./orchids-projects/fcs-hero/src/app/page.tsx:452:3
+Parsing ecmascript source code failed
+  450 |       </div>
+  451 |     );
+> 452 |   }
+      |   ^
+  453 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/fcs-hero/src/app/page.tsx [Server Component]
+2026-02-09T12:18:32.130Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section data-orchids-id="src/app/pa..." data-orchids-name="section" ...>
+                                <nav>
+                                <div>
+                                <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="mx-auto ma...">
+                                  <div>
+                                  <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="relative f...">
+                                    <div data-orchids-id="src/app/pa..." data-orchids-name="div" ...>
+                                      <svg>
+                                      <div>
+                                      <div data-orchids-id="src/app/pa..." data-orchids-name="div" ...>
+                                        <img
+                                          data-orchids-id="src/app/page.tsx:341:18"
+                                          data-orchids-name="img"
+                                          alt="Next slide preview"
+                                          fetchPriority={undefined}
+                                          loading="lazy"
+                                          width={undefined}
+                                          height={undefined}
+                                          decoding="async"
+                                          data-nimg="fill"
+                                          className="object-cover"
+                                          style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                                          sizes="160px"
+                                          srcSet={"/_next/image?url=%2Fvue-7.webp&w=16&q=60 16w, /_next/image?url=%2F..."}
+                                          src={"/_next/image?url=%2Fvue-7.webp&w=3840&q=60"}
+                                          ref={function}
+                                          onLoad={function onLoad}
+                                          onError={function onError}
+-                                         data-orchid-ref="ref-fld2ftgljx"
+                                        >
+                                      <div
+          ... [truncated]
+2026-02-09T12:18:32.131Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section data-orchids-id="src/app/pa..." data-orchids-name="section" ...>
+                                <nav>
+                                <div>
+                                <div data-orchids-id="src/...
+2026-02-09T13:09:13.857Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                    <SegmentViewNode type="page" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                        <HomePage params={Promise} searchParams={Promise}>
+                          <section>
+                          <section>
+                          <section>
+                          <footer data-orchids-id="src/app/pa..." data-orchids-name="footer" className="bg-foregro...">
+                            <div>
+                            <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="mx-auto ma...">
+                              <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="grid grid-...">
+                                <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="md:col-span-5">
+                                  <div>
+                                  <p>
+                                  <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="flex items...">
+                                    <a>
+                                    <a data-orchids-id="src/app/pa..." data-orchids-name="a" href="#" ...>
+                                      <Globe data-orchids-id="src/app/pa..." data-orchids-name="social.icon" ...>
+                                        <svg
+                                          ref={null}
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width={24}
+                                          height={24}
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          strokeWidth={1.5}
+                                          strokeLinecap="round"
+                                          strokeLinejoin="round"
+                                          className="lucide lucide-globe h-4 w-4"
+                                          aria-hidden="true"
+                                          data-orchids-id="src/app/page.tsx:497:24"
+                                          data-orchids-name="social.icon"
+-                                         data-orchid-ref="ref-e2m50ppmz2"
+                                        >
+                                          <circle
+                                            cx="12"
+                                            cy="12"
+                                            r="10"
+-                ... [truncated]
+2026-02-09T13:09:13.857Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                    <SegmentViewNode type="page" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                        <HomePage params={Promise} searchParams={Promise}>
+                          <section>
+                          <section>
+                          <section>
+                          <footer data-orchids-id="src/app/pa..." data-orchids-name="footer" className="bg-foregro...">
+                            <div>
+                            <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="mx-aut...
+2026-02-09T13:30:33.116Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section>
+                              <section>
+                              ...
+                                <LinkComponent data-map-index={2} data-orchids-id="src/app/pa..." ...>
+                                  <a data-map-index={2} data-orchids-id="src/app/pa..." data-orchids-name="Link" ...>
+                                    <img>
+                                    <div>
+                                    <div data-map-index={2} data-orchids-id="src/app/pa..." data-orchids-name="div" ...>
+                                      <span
+                                        data-map-index={2}
+                                        data-orchids-id="src/app/page.tsx:505:24@featuredProjects"
+                                        data-orchids-name="span"
+                                        className="self-start px-3 py-1 rounded-full text-[10px] tracking-[0.2em] uppe..."
+-                                       data-orchid-ref="ref-9rtsng7kla"
+                                      >
++                                       Boulangerie
+                                      <h3
+                                        data-map-index={2}
+                                        data-orchids-id="src/app/page.tsx:508:24@featuredProjects"
+                                        data-orchids-name="h3"
+                                        className="text-lg md:text-xl font-light text-white tracking-tight"
+-                                       data-orchid-ref="ref-le7ivoiqnw"
+                                      >
++                                       Maison Laurent
+                                      <span
+                                        data-map-index={2}
+                                        data-orchids-id="src/app/page.tsx:511:24@featuredProjects"
+                                        data-orchids-name="span"
+                                        className="text-xs text-white/50 mt-1"
+-                                       data-orchid-ref="ref-td90k1pnxx"
+                                      >
++                                       Neuilly-sur-Seine
+                                    <div
+                                      data-map... [truncated]
+2026-02-09T13:30:33.116Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section>
+                              <section>
+                              ...
+                                <LinkComponent data-map-index={2} data-orchids-id="src/app/pa..." ...>
+                     ...
+2026-02-09T13:30:33.116Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section>
+                              <section>
+                              ...
+                                <LinkComponent data-map-index={2} data-orchids-id="src/app/pa..." ...>
+                                  <a data-map-index={2} data-orchids-id="src/app/pa..." data-orchids-name="Link" ...>
+                                    <img>
+                                    <div>
+                                    <div data-map-index={2} data-orchids-id="src/app/pa..." data-orchids-name="div" ...>
+                                      <span
+                                        data-map-index={2}
+                                        data-orchids-id="src/app/page.tsx:505:24@featuredProjects"
+                                        data-orchids-name="span"
+                                        className="self-start px-3 py-1 rounded-full text-[10px] tracking-[0.2em] uppe..."
+-                                       data-orchid-ref="ref-9rtsng7kla"
+                                      >
++                                       Boulangerie
+                                      <h3
+                                        data-map-index={2}
+                                        data-orchids-id="src/app/page.tsx:508:24@featuredProjects"
+                                        data-orchids-name="h3"
+                                        className="text-lg md:text-xl font-light text-white tracking-tight"
+-                                       data-orchid-ref="ref-le7ivoiqnw"
+                                      >
++                                       Maison Laurent
+                                      <span
+                                        data-map-index={2}
+                                        data-orchids-id="src/app/page.tsx:511:24@featuredProjects"
+                                        data-orchids-name="span"
+                                        className="text-xs text-white/50 mt-1"
+-                                       data-orchid-ref="ref-td90k1pnxx"
+                                      >
++                                       Neuilly-sur-Seine
+                                    <div
+                                      data-map... [truncated]
+2026-02-09T13:30:33.116Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section>
+                              <section>
+                              ...
+                                <LinkComponent data-map-index={2} data-orchids-id="src/app/pa..." ...>
+                     ...
+2026-02-09T13:42:03.566Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                    <SegmentViewNode type="page" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                        <HomePage params={Promise} searchParams={Promise}>
+                          <section>
+                          <section>
+                          <section>
+                          <section>
+                          <footer data-orchids-id="src/app/pa..." data-orchids-name="footer" className="bg-foregro...">
+                            <div>
+                            <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="mx-auto ma...">
+                              <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="grid grid-...">
+                                <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="md:col-span-5">
+                                  <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="flex items...">
+                                    <img
+                                      data-orchids-id="src/app/page.tsx:553:20"
+                                      data-orchids-name="img"
+                                      alt="FCS Logo"
+                                      fetchPriority={undefined}
+                                      loading="lazy"
+                                      width={44}
+                                      height={44}
+                                      decoding="async"
+                                      data-nimg="1"
+                                      className="rounded-full brightness-0 invert"
+                                      style={{color:"transparent"}}
+                                      sizes={undefined}
+                                      srcSet={"/_next/image?url=%2Flogo-fcs.png&w=48&q=75 1x, /_next/image?url=%2Flog..."}
+                                      src={"/_next/image?url=%2Flogo-fcs.png&w=96&q=75"}
+                                      ref={function}
+                                      onLoad={function onLoad}
+                                      onError={function onError}
+-                                     data-orchid-ref="ref-lsot98v9v4"
+                                    >
+                                    <div
+                                      data-orchids-id="src/app/page.tsx:560:20"
+                                      data-orchids-name="div"
+-                                     data-orchid-ref="ref-5yqg2mmosp"
+                                    >
+                                  ... [truncated]
+2026-02-09T13:42:03.566Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                    <SegmentViewNode type="page" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                        <HomePage params={Promise} searchParams={Promise}>
+                          <section>
+                          <section>
+                          <section>
+                          <section>
+                          <footer data-orchids-id="src/app/pa..." data-orchids-name="footer" className="bg-foregro...">
+                            <div>
+                            <div data-orchids-id="src/app/pa..." data-...
+2026-02-09T14:26:04.641Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/#contact" tree={[...]} cacheNode={{lazyData:null, ...}} ...>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section>
+                              <section>
+                              ...
+                                <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="grid grid-...">
+                                  ...
+                                    <ArrowUpRight data-map-index={0} data-orchids-id="src/app/pa..." ...>
+                                      <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" ...>
+                                        <path
+                                          d="M7 7h10v10"
+-                                         data-orchid-ref="ref-8115lmuiuq"
+                                        >
+                                        <path
+                                          d="M7 17 17 7"
+-                                         data-orchid-ref="ref-f6jka42b2b"
+                                        >
+                                  <motion.div data-map-index={1} data-orchids-id="src/app/pa..." ...>
+                                    <div
+                                      data-map-index={1}
+                                      data-orchids-id="src/app/page.tsx:484:18@featuredProjects"
+                                      data-orchids-name="motion.div"
+                                      style={{opacity:0,transform:"translateY..."}}
+                                      ref={function useMotionRef.useCallback}
+-                                     data-orchid-ref="ref-d66x2nqz3p"
+                                    >
+                                      <LinkComponent data-map-index={1} data-orchids-id="src/app/pa..." ...>
+                                        <a
+                                          data-map-index={1}
+                                          data-orchids-id="src/app/page.tsx:491:20@featuredProjects"
+                                          data-orchids-name="Link"
+                                          className="group relative block overflow-hidden rounded-2xl bg-muted/20 aspe..."
+                                          ref={function}
+                                          onClick={function onClick}
+                                     ... [truncated]
+2026-02-09T14:26:04.641Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/#contact" tree={[...]} cacheNode={{lazyData:null, ...}} ...>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section>
+                              <section>
+                              ...
+                                <div data-orchids-id="src/app/pa..." data-orchids-name="div" className="grid grid-...">
+            ...
+2026-02-13T13:49:51.758Z [console][error] Image with src "/logo-fcs.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority
+2026-02-15T13:17:21.299Z [console][error] Image with src "/logo-fcs.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority
+2026-02-16T00:44:27.617Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary loading={null}>
+              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>
+                        <SegmentViewNode type="page" pagePath="/orchids-p...">
+                          <SegmentTrieNode>
+                          <ClientPageRoot Component={function HomePage} searchParams={{}} params={{}}>
+                            <HomePage params={Promise} searchParams={Promise}>
+                              <section>
+                              <section>
+                              ...
+                                <ArrowUpRight data-map-index={2} data-orchids-id="src/app/pa..." ...>
+                      ...
+2026-02-21T20:01:04.983Z [console][error] Image with src "http://localhost:3000/logo-fcs.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+2026-02-21T20:01:04.983Z [console][warn] Image with src "http://localhost:3000/logo-fcs.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+2026-02-24T16:22:15.708Z [console][error] %c%s%c  [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server  
+2026-02-24T17:49:40.144Z [console][warn] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+2026-02-24T17:49:40.180Z [console][log] __ORCHIDS_NAVIGATE__ http://localhost:3000/
+2026-02-24T17:49:40.180Z [console][debug] __ORCHIDS_NAVIGATE__ http://localhost:3000/

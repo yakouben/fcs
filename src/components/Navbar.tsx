@@ -49,11 +49,11 @@ export default function Navbar() {
           <Link
             key={link.label}
             href={link.href}
-            className={`px-6 py-2 text-[13px] tracking-[0.04em] rounded-full transition-all duration-300 font-light ${
-              isActive(link.href)
-                ? "text-foreground bg-muted/40"
-                : "text-muted-foreground/70 hover:text-foreground hover:bg-muted/50"
-            }`}
+              className={`px-6 py-2 text-[13px] tracking-[0.04em] rounded-full transition-all duration-300 font-light ${
+                isActive(link.href)
+                  ? "text-foreground bg-muted/40"
+                  : "text-muted-foreground/70 hover:text-foreground"
+              }`}
           >
             {link.label}
           </Link>
@@ -101,7 +101,7 @@ export default function Navbar() {
                     className={`flex items-center gap-3 px-4 py-3.5 text-sm rounded-xl transition-colors ${
                       isActive(link.href)
                         ? "text-foreground bg-muted"
-                        : "text-muted-foreground hover:text-foreground hover:bg-muted/60"
+                        : "text-muted-foreground hover:text-foreground"
                     }`}
                   >
                     <link.icon className="h-4 w-4 shrink-0" strokeWidth={1.5} />

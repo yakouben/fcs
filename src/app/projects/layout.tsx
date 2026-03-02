@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nos Réalisations – Vitrines & Agencements de Commerce",
+  title: "Nos Projets – Vitrines & Agencements de Commerce",
   description:
     "Découvrez les 30+ projets réalisés par FCS : boulangeries, boucheries, pâtisseries aménagées partout en France. Vitrines réfrigérées sur mesure, agencement complet.",
   keywords: [
-    "réalisations vitrines réfrigérées",
+    "Projets vitrines réfrigérées",
     "projets agencement boulangerie",
     "boulangerie aménagée",
     "vitrine boulangerie sur mesure",
     "agencement boucherie réalisé",
-    "FCS réalisations",
+    "FCS Projets",
   ],
   openGraph: {
-    title: "Nos Réalisations – FCS Vitrines & Agencements",
+    title: "Nos Projets – FCS Vitrines & Agencements",
     description:
       "30+ projets de boulangeries, boucheries et pâtisseries aménagées en Île-de-France et partout en France.",
     url: "https://fcs-concept.fr/projects",

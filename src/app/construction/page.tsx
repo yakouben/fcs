@@ -109,7 +109,7 @@ export default function ConstructionPage() {
 
           <div className="flex items-center gap-4">
             <a
-              href="tel:+33 6 67 61 71 59"
+              href="tel:+330143829199"
               className="w-10 h-10 rounded-full border border-border/60 flex items-center justify-center text-muted-foreground hover:text-[#C6A962] hover:border-[#C6A962]/40 transition-all duration-300"
             >
               <Phone className="w-4 h-4" strokeWidth={1.5} />

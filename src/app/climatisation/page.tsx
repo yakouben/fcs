@@ -1,8 +1,10 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useCountUp } from "@/lib/hooks";
 import {
   Wind,
   Thermometer,
@@ -13,8 +15,6 @@ import {
   MessageCircle,
   ArrowLeft,
   ShieldCheck,
-  Zap,
-  Clock,
 } from "lucide-react";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -58,7 +58,6 @@ const services = [
     title: "Dépannage & SAV",
     desc: "Une panne ne prévient pas. Notre équipe intervient rapidement en Île-de-France pour diagnostiquer et résoudre tout problème sur votre installation climatique.",
     points: [
-      "Intervention rapide sous 24–48h",
       "Diagnostic précis sur site",
       "Remplacement avec pièces d'origine",
       "Disponible toute l'année",
@@ -67,10 +66,8 @@ const services = [
 ];
 
 const stats = [
-  { icon: ShieldCheck, value: "Certifié", label: "RGE" },
-  { icon: Clock,       value: "24–48h",  label: "Délai d'intervention" },
-  { icon: Zap,         value: "A+++",    label: "Efficacité énergétique" },
-  { icon: Wind,        value: "20+",     label: "Ans d'expérience" },
+  { icon: ShieldCheck, value: null, label: "RGE", text: "Certifié" },
+  { icon: Wind, value: 24, label: "Ans d'expérience", text: null },
 ];
 
 const faq = [
@@ -88,7 +85,7 @@ const faq = [
   },
   {
     q: "Intervenez-vous en urgence ?",
-    a: "Absolument. Notre équipe SAV intervient sous 24 à 48h en Île-de-France pour tout dépannage. Contactez-nous par téléphone ou WhatsApp pour une prise en charge prioritaire.",
+    a: "Absolument. Notre équipe SAV intervient en Île-de-France pour tout dépannage. Contactez-nous par téléphone ou WhatsApp pour une prise en charge prioritaire.",
   },
 ];
 
@@ -102,35 +99,35 @@ export default function ClimatisationPage() {
       <section className="pt-28 pb-0 px-4">
         <div className="mx-auto max-w-7xl">
 
-        {/* Back link */}
-            <motion.div
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-              className="mb-6"
+          {/* Back link */}
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+            className="mb-6"
+          >
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 text-xs tracking-[0.2em] uppercase text-muted-foreground/60 hover:text-foreground transition-colors duration-300"
             >
-              <Link
-                href="/"
-                className="inline-flex items-center gap-2 text-xs tracking-[0.2em] uppercase text-muted-foreground/60 hover:text-foreground transition-colors duration-300"
-              >
-                <ArrowLeft className="h-3.5 w-3.5" />
-                Retour à l&apos;accueil
-              </Link>
-            </motion.div>
+              <ArrowLeft className="h-3.5 w-3.5" />
+              Retour à l&apos;accueil
+            </Link>
+          </motion.div>
 
-            {/* Top label */}
-            <motion.div
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="flex items-center gap-3 mb-8"
-            >
-              <Badge variant="outline" className="rounded-full border-gold/40 text-gold/80 bg-gold/5 text-[11px] tracking-[0.2em] uppercase font-normal px-4 py-1.5">
-                Climatisation
-              </Badge>
-              <Separator orientation="horizontal" className="w-12 bg-border/30" />
-              <span className="text-[11px] tracking-[0.2em] uppercase text-muted-foreground/40 font-light">FCS Concept</span>
-            </motion.div>
+          {/* Top label */}
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="flex items-center gap-3 mb-8"
+          >
+            <Badge variant="outline" className="rounded-full border-gold/40 text-gold/80 bg-gold/5 text-[11px] tracking-[0.2em] uppercase font-normal px-4 py-1.5">
+              Climatisation
+            </Badge>
+            <Separator orientation="horizontal" className="w-12 bg-border/30" />
+            <span className="text-[11px] tracking-[0.2em] uppercase text-muted-foreground/40 font-light">FCS Concept</span>
+          </motion.div>
 
           {/* Heading + image row */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-end">
@@ -144,7 +141,6 @@ export default function ClimatisationPage() {
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-[-0.02em] text-foreground leading-[1.0] mb-6">
                 Confort<br />
                 thermique<br />
-                <span className="text-gold font-extralight italic font-serif">sur mesure</span>
               </h1>
               <p className="text-sm md:text-base text-muted-foreground/70 leading-relaxed font-light max-w-md mb-8">
                 Installation, maintenance et dépannage de systèmes de climatisation professionnels — pour votre commerce, boutique ou espace de vente. Techniciens certifiés RGE.
@@ -160,7 +156,7 @@ export default function ClimatisationPage() {
                   <ArrowUpRight className="h-3.5 w-3.5" strokeWidth={1.5} />
                 </a>
                 <a
-                  href="tel:+33667617159"
+                  href="tel:+330143829199"
                   className="inline-flex items-center gap-2 rounded-full border border-border/50 px-7 py-3 text-sm text-muted-foreground font-light tracking-wide hover:text-foreground hover:bg-muted/30 transition-all duration-200"
                 >
                   <Phone className="h-3.5 w-3.5" strokeWidth={1.5} />
@@ -237,11 +233,7 @@ export default function ClimatisationPage() {
             className="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-border/20 border border-border/20 rounded-3xl overflow-hidden"
           >
             {stats.map((s, i) => (
-              <div key={i} className="flex flex-col items-center gap-2 px-6 py-8 bg-muted/5 hover:bg-muted/10 transition-colors duration-300">
-                <s.icon className="h-5 w-5 text-gold" strokeWidth={1.3} />
-                <span className="text-2xl font-light text-foreground tracking-tight">{s.value}</span>
-                <span className="text-[11px] uppercase tracking-widest text-muted-foreground/50 text-center">{s.label}</span>
-              </div>
+              <StatCard key={i} stat={s} />
             ))}
           </motion.div>
         </div>
@@ -258,11 +250,11 @@ export default function ClimatisationPage() {
             transition={{ duration: 0.6 }}
             className="mb-12"
           >
-              <span className="text-xs tracking-[0.3em] uppercase text-gold/80 mb-3 block">Nos prestations</span>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight text-foreground uppercase">
-                CE QUE NOUS FAISONS<br />
-                <em className="font-serif italic normal-case font-extralight">comme prestations</em>
-              </h2>
+            <span className="text-xs tracking-[0.3em] uppercase text-gold/80 mb-3 block">Nos prestations</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-tight text-foreground uppercase">
+              CE QUE NOUS FAISONS<br />
+              <em className="font-serif italic normal-case font-extralight">comme prestations</em>
+            </h2>
           </motion.div>
 
           <Tabs defaultValue="installation">
@@ -321,8 +313,8 @@ export default function ClimatisationPage() {
                     {s.points.map((point, i) => (
                       <Card key={i} className="border-border/40 bg-muted/10 shadow-none rounded-2xl">
                         <CardContent className="flex items-start gap-3 p-5">
-                        <CheckCircle2 className="h-[18px] w-[18px] text-gold shrink-0 mt-0.5" strokeWidth={2} />
-                            <span className="text-[15px] text-foreground font-medium leading-snug">{point}</span>
+                          <CheckCircle2 className="h-[18px] w-[18px] text-gold shrink-0 mt-0.5" strokeWidth={2} />
+                          <span className="text-[15px] text-foreground font-medium leading-snug">{point}</span>
                         </CardContent>
                       </Card>
                     ))}
@@ -344,11 +336,11 @@ export default function ClimatisationPage() {
             transition={{ duration: 0.6 }}
             className="mb-12 text-center"
           >
-              <span className="text-xs tracking-[0.3em] uppercase text-gold/80 mb-3 block">Questions fréquentes</span>
-              <h2 className="text-3xl sm:text-4xl font-light tracking-tight text-foreground uppercase">
-                FAQ<br />
-                <em className="font-serif italic normal-case font-extralight">vos questions</em>
-              </h2>
+            <span className="text-xs tracking-[0.3em] uppercase text-gold/80 mb-3 block">Questions fréquentes</span>
+            <h2 className="text-3xl sm:text-4xl font-light tracking-tight text-foreground uppercase">
+              FAQ<br />
+              <em className="font-serif italic normal-case font-extralight">vos questions</em>
+            </h2>
           </motion.div>
 
           <Accordion type="single" collapsible className="space-y-3">
@@ -394,9 +386,7 @@ export default function ClimatisationPage() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-background tracking-tight mb-4">
               Un projet de climatisation ?
             </h2>
-            <p className="text-sm text-background/50 font-light max-w-md mx-auto mb-10 leading-relaxed">
-              Devis gratuit et sans engagement. Réponse sous 24h.
-            </p>
+
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
                 href="https://wa.me/33667617159"
@@ -408,18 +398,34 @@ export default function ClimatisationPage() {
                 WhatsApp
               </a>
               <a
-                href="tel:+33667617159"
+                href="tel:+330143829199"
                 className="inline-flex items-center gap-2 rounded-full border border-background/20 text-background px-8 py-3 text-sm font-light tracking-wide hover:bg-background/10 transition-all duration-200"
               >
                 <Phone className="h-4 w-4" strokeWidth={1.5} />
-                +33 6 67 61 71 59
+                +33 01 43 82 91 99
               </a>
             </div>
           </motion.div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <Footer />
+      <Footer />
+    </div>
+  );
+}
+
+function StatCard({ stat }: { stat: { icon: React.ElementType; value: number | null; label: string; text: string | null } }) {
+  const { count, ref } = useCountUp(stat.value ?? 0);
+  return (
+    <div className="flex flex-col items-center gap-2 px-6 py-8 bg-muted/5 hover:bg-muted/10 transition-colors duration-300">
+      <stat.icon className="h-5 w-5 text-gold" strokeWidth={1.3} />
+      <span
+        ref={ref as React.RefObject<HTMLSpanElement>}
+        className="text-2xl font-light text-foreground tracking-tight"
+      >
+        {stat.value !== null ? `${count}` : stat.text}
+      </span>
+      <span className="text-[11px] uppercase tracking-widest text-muted-foreground/50 text-center">{stat.label}</span>
     </div>
   );
 }

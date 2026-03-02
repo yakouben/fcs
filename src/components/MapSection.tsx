@@ -6,7 +6,7 @@ const ParisMap = dynamic(() => import("@/components/ParisMap"), { ssr: false });
 
 export default function MapSection() {
   return (
-    <section className="bg-background py-20 md:py-28">
+    <section className="bg-background pt-10 pb-20 md:pt-16 md:pb-28">
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex flex-col items-center text-center mb-14 md:mb-20">
           <span className="text-xs tracking-[0.3em] uppercase text-gold/80 mb-4">

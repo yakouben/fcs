@@ -6,7 +6,7 @@ import { categories } from "@/lib/data";
 
 export default function CategoriesSection() {
   return (
-    <section className="bg-background py-20 md:py-28">
+    <section className="bg-background pt-20 pb-10 md:pt-28 md:pb-14">
       <div className="mx-auto max-w-7xl px-4">
 
           <div className="flex flex-col items-center text-center mb-14 md:mb-20">

@@ -97,14 +97,14 @@ const jsonLd = {
   description:
     "Fabrication de vitrines réfrigérées, agencement de boulangeries, boucheries et pâtisseries. Climatisation et froid commercial. Depuis 2002.",
   url: "https://fcs-concept.fr",
-  telephone: "+33667617159",
+  telephone: "+330143829199",
   email: "contact@fcs-concept.fr",
   foundingDate: "2002",
   image: "https://fcs-concept.fr/logo-fcs.png",
   logo: "https://fcs-concept.fr/logo-fcs.png",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "11 Avenue Charles de Gaulle",
+    streetAddress: "13 Av. Charles de Gaulle",
     addressLocality: "Boissy-Saint-Léger",
     postalCode: "94470",
     addressCountry: "FR",

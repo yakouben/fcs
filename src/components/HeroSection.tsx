@@ -1,14 +1,33 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { Snowflake } from "lucide-react";
 import { slides, AUTO_PLAY_INTERVAL, heroStats, clientNames } from "@/lib/data";
+
+function useCountUp(target: number, duration = 1800, start = false) {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    if (!start) return;
+    let startTime: number | null = null;
+    const step = (timestamp: number) => {
+      if (!startTime) startTime = timestamp;
+      const progress = Math.min((timestamp - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setCount(Math.floor(eased * target));
+      if (progress < 1) requestAnimationFrame(step);
+      else setCount(target);
+    };
+    requestAnimationFrame(step);
+  }, [target, duration, start]);
+  return count;
+}
 
 export default function HeroSection() {
   const [current, setCurrent] = useState(0);
+  const [statsVisible, setStatsVisible] = useState(false);
+  const statsRef = useRef<HTMLDivElement>(null);
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev + 1) % slides.length);
@@ -19,19 +38,22 @@ export default function HeroSection() {
     return () => clearInterval(timer);
   }, [next]);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setStatsVisible(true); },
+      { threshold: 0.5 }
+    );
+    const el = statsRef.current;
+    if (el) observer.observe(el);
+    return () => { if (el) observer.unobserve(el); };
+  }, []);
+
   return (
     <section className="relative min-h-svh w-full bg-background overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 pt-24 md:pt-28 pb-12">
 
         {/* Hero Content */}
-        <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold/5 px-4 py-1.5 mb-6">
-              <Snowflake className="h-3.5 w-3.5 text-gold" strokeWidth={1.5} />
-              <span className="text-xs tracking-[0.3em] uppercase text-gold/80 font-medium">
-                Depuis 2002 en France
-              </span>
-            </div>
-
+          <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-10">
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-foreground leading-[1.05]">
               <span className="uppercase">Fabrication de vitrines</span>
               <br />
@@ -44,7 +66,7 @@ export default function HeroSection() {
           <p className="mt-6 text-muted-foreground/80 text-sm md:text-base leading-relaxed max-w-lg font-light tracking-wide">
             Spécialisée dans les métiers de bouche, FCS propose des services
             complets de conception sur-mesure, de l&apos;idée à la réalisation.
-            Installation, maintenance et SAV.
+            Installation, maintenance et SAV, depuis 2002.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-3 mt-8">
@@ -58,20 +80,13 @@ export default function HeroSection() {
               href="/projects"
               className="inline-flex items-center gap-2 rounded-full border border-border/60 px-7 py-2.5 text-sm text-muted-foreground/80 font-light tracking-wide hover:text-foreground hover:bg-muted/40 transition-all duration-200"
             >
-              Voir nos réalisations
+              Voir nos Projets
             </Link>
           </div>
 
-          <div className="flex items-center gap-8 md:gap-12 mt-10">
+          <div ref={statsRef} className="flex items-center gap-8 md:gap-12 mt-10">
             {heroStats.map((stat, i) => (
-              <div key={i} className="flex flex-col items-center">
-                <span className="text-2xl md:text-3xl font-light text-gold tracking-tight">
-                  {stat.value}
-                </span>
-                <span className="text-[10px] md:text-xs uppercase tracking-widest text-muted-foreground/60 mt-1">
-                  {stat.label}
-                </span>
-              </div>
+              <StatCounter key={i} stat={stat} visible={statsVisible} />
             ))}
           </div>
         </div>
@@ -116,19 +131,7 @@ export default function HeroSection() {
               </AnimatePresence>
             </div>
 
-            <div
-              className="absolute -bottom-4 left-0 md:-left-6 lg:-left-10 w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 overflow-hidden shadow-lg z-20"
-              style={{ clipPath: "url(#thumb-mask)" }}
-            >
-              <Image
-                src={slides[(current + 1) % slides.length].src}
-                alt="Next slide preview"
-                fill
-                className="object-cover"
-                quality={60}
-                sizes="160px"
-              />
-            </div>
+            
 
             <div className="absolute bottom-6 right-8 z-20 flex gap-2">
               {slides.map((_, i) => (
@@ -145,22 +148,51 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Client marquee */}
-        <div className="relative overflow-hidden py-5 mt-4">
-          <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-background to-transparent z-10" />
-          <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-background to-transparent z-10" />
-          <div className="flex w-max animate-marquee" style={{ animationDuration: "20s" }}>
-            {[...clientNames, ...clientNames].map((name, i) => (
-              <span
-                key={i}
-                className="mx-6 whitespace-nowrap text-sm md:text-base italic text-muted-foreground/50 font-serif tracking-wide"
-              >
-                {name}
+          {/* Client marquee */}
+          <div className="relative flex items-center gap-4 md:gap-10 mt-8 md:mt-16 py-6 border-y border-border/5">
+            <div className="shrink-0 flex items-center gap-3">
+              <div className="h-1 w-1 md:h-1.5 md:w-1.5 rounded-full bg-gold/50 shadow-[0_0_8px_rgba(198,169,98,0.3)]" />
+              <span className="text-[9px] md:text-[11px] font-medium tracking-[0.3em] uppercase text-gold whitespace-nowrap">
+                Nos réalisations :
               </span>
-            ))}
+            </div>
+
+            <div className="relative flex-1 overflow-hidden">
+              <div className="absolute inset-y-0 left-0 w-12 md:w-24 bg-gradient-to-r from-background to-transparent z-10" />
+              <div className="absolute inset-y-0 right-0 w-12 md:w-24 bg-gradient-to-l from-background to-transparent z-10" />
+              <div className="flex w-max animate-marquee" style={{ animationDuration: "35s" }}>
+                {[...clientNames, ...clientNames].map((name, i) => (
+                  <span
+                    key={i}
+                    className="mx-6 md:mx-10 whitespace-nowrap text-[13px] md:text-base italic text-muted-foreground/35 font-serif tracking-widest"
+                  >
+                    {name}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    );
+}
+
+function StatCounter({
+  stat,
+  visible,
+}: {
+  stat: { value: number; suffix: string; label: string };
+  visible: boolean;
+}) {
+  const count = useCountUp(stat.value, 1800, visible);
+  return (
+    <div className="flex flex-col items-center">
+      <span className="text-2xl md:text-3xl font-light text-gold tracking-tight">
+        {count}{stat.suffix}
+      </span>
+      <span className="text-[10px] md:text-xs uppercase tracking-widest text-muted-foreground/60 mt-1">
+        {stat.label}
+      </span>
+    </div>
   );
 }

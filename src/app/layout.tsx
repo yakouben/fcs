@@ -69,7 +69,7 @@ export const metadata: Metadata = {
       "Spécialiste depuis 2002 en fabrication de vitrines réfrigérées, agencement boulangeries, boucheries, pâtisseries. Partout en France.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/logo-fcs.png",
         width: 1200,
         height: 630,
         alt: "FCS – Fabrication de vitrines et agencement de commerce",
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     title: "FCS – Fabrication de Vitrines & Agencement Commerce",
     description:
       "Spécialiste depuis 2002 en fabrication de vitrines réfrigérées et agencement de commerces. Partout en France.",
-    images: ["/og-image.jpg"],
+    images: ["/logo-fcs.png"],
   },
   alternates: {
     canonical: "https://fcs-concept.fr",

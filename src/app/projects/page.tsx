@@ -160,12 +160,12 @@ const projects = [
     location: "Paris (75006)",
     year: "2024",
     images: [
-      "/TAKUMI PATISSERIE /WhatsApp Image 2026-02-26 at 10.19.11 (1).jpeg",
-      "/TAKUMI PATISSERIE /WhatsApp Image 2026-02-26 at 10.19.11 (2).jpeg",
-      "/TAKUMI PATISSERIE /WhatsApp Image 2026-02-26 at 10.19.11.jpeg",
-      "/TAKUMI PATISSERIE /WhatsApp Image 2026-02-26 at 10.19.12 (1).jpeg",
-      "/TAKUMI PATISSERIE /WhatsApp Image 2026-02-26 at 10.19.12 (2).jpeg",
-      "/TAKUMI PATISSERIE /WhatsApp Image 2026-02-26 at 10.19.12.jpeg",
+      "/takumi-dauphine/WhatsApp Image 2026-02-26 at 10.19.11 (1).jpeg",
+      "/takumi-dauphine/WhatsApp Image 2026-02-26 at 10.19.11 (2).jpeg",
+      "/takumi-dauphine/WhatsApp Image 2026-02-26 at 10.19.11.jpeg",
+      "/takumi-dauphine/WhatsApp Image 2026-02-26 at 10.19.12 (1).jpeg",
+      "/takumi-dauphine/WhatsApp Image 2026-02-26 at 10.19.12 (2).jpeg",
+      "/takumi-dauphine/WhatsApp Image 2026-02-26 at 10.19.12.jpeg",
     ],
     description: "Fourniture et pose d'une vitrine pâtisserie et climatisation complète du local.",
     scope: ["Vitrine pâtisserie", "Climatisation"],
@@ -426,26 +426,26 @@ const projects = [
     location: "Pontoise (95300)",
     year: "2023",
     images: [
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.49.jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.50 (1).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.50 (2).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.50.jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.51 (1).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.51 (2).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.51 (3).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.51.jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.52 (1).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.52 (2).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.52.jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.53 (1).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.53 (2).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.53.jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.54 (1).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.54 (2).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.54 (3).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.54.jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.55 (1).jpeg",
-      "/BOULANGERIE LE PAVILLON DU PAIN /WhatsApp Image 2026-02-26 at 09.41.55.jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.49.jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.50 (1).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.50 (2).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.50.jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.51 (1).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.51 (2).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.51 (3).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.51.jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.52 (1).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.52 (2).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.52.jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.53 (1).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.53 (2).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.53.jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.54 (1).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.54 (2).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.54 (3).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.54.jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.55 (1).jpeg",
+      "/pavillon-pain-pontoise/WhatsApp Image 2026-02-26 at 09.41.55.jpeg",
     ],
     description: "Installation complète incluant travaux intérieurs/extérieurs, ventilation, vitrine, bar et meubles arrières.",
     scope: ["Ventilation", "Bar", "Vitrines", "Travaux extérieurs"],
@@ -534,12 +534,12 @@ const projects = [
     location: "Bois-Colombes (92270)",
     year: "2022",
     images: [
-      "/BOULANGERIE MAISON GHAFIF /WhatsApp Image 2026-02-25 at 14.28.45 (1).jpeg",
-      "/BOULANGERIE MAISON GHAFIF /WhatsApp Image 2026-02-25 at 14.28.45.jpeg",
-      "/BOULANGERIE MAISON GHAFIF /WhatsApp Image 2026-02-25 at 14.28.46 (1).jpeg",
-      "/BOULANGERIE MAISON GHAFIF /WhatsApp Image 2026-02-25 at 14.28.46 (2).jpeg",
-      "/BOULANGERIE MAISON GHAFIF /WhatsApp Image 2026-02-25 at 14.28.46.jpeg",
-      "/BOULANGERIE MAISON GHAFIF /WhatsApp Image 2026-02-25 at 14.28.47.jpeg",
+      "/maison-ghafif/WhatsApp Image 2026-02-25 at 14.28.45 (1).jpeg",
+      "/maison-ghafif/WhatsApp Image 2026-02-25 at 14.28.45.jpeg",
+      "/maison-ghafif/WhatsApp Image 2026-02-25 at 14.28.46 (1).jpeg",
+      "/maison-ghafif/WhatsApp Image 2026-02-25 at 14.28.46 (2).jpeg",
+      "/maison-ghafif/WhatsApp Image 2026-02-25 at 14.28.46.jpeg",
+      "/maison-ghafif/WhatsApp Image 2026-02-25 at 14.28.47.jpeg",
     ],
     description: "Fourniture et pose vitrine, meubles, menuiseries, équipement chaud et froid.",
     scope: ["Vitrines", "Menuiseries", "Équipement chaud/froid"],
@@ -589,12 +589,12 @@ const projects = [
     location: "Île-de-France",
     year: "2022",
     images: [
-      "/PAVILLON SUCRE /WhatsApp Image 2026-02-25 at 14.16.59 (1).jpeg",
-      "/PAVILLON SUCRE /WhatsApp Image 2026-02-25 at 14.16.59.jpeg",
-      "/PAVILLON SUCRE /WhatsApp Image 2026-02-25 at 14.17.00.jpeg",
-      "/PAVILLON SUCRE /WhatsApp Image 2026-02-25 at 14.17.01 (1).jpeg",
-      "/PAVILLON SUCRE /WhatsApp Image 2026-02-25 at 14.17.01 (2).jpeg",
-      "/PAVILLON SUCRE /WhatsApp Image 2026-02-25 at 14.17.01.jpeg",
+      "/pavillon-sucre/WhatsApp Image 2026-02-25 at 14.16.59 (1).jpeg",
+      "/pavillon-sucre/WhatsApp Image 2026-02-25 at 14.16.59.jpeg",
+      "/pavillon-sucre/WhatsApp Image 2026-02-25 at 14.17.00.jpeg",
+      "/pavillon-sucre/WhatsApp Image 2026-02-25 at 14.17.01 (1).jpeg",
+      "/pavillon-sucre/WhatsApp Image 2026-02-25 at 14.17.01 (2).jpeg",
+      "/pavillon-sucre/WhatsApp Image 2026-02-25 at 14.17.01.jpeg",
     ],
     description: "Fourniture et pose vitrine, meubles, menuiseries, équipement chaud et froid, chaises et tables.",
     scope: ["Menuiseries", "Équipement chaud/froid", "Mobilier"],
@@ -609,11 +609,11 @@ const projects = [
     location: "Thiais (94320)",
     year: "2021",
     images: [
-      "/HOTEL THIAIS - 2021 /WhatsApp Image 2026-02-25 at 14.14.35.jpeg",
-      "/HOTEL THIAIS - 2021 /WhatsApp Image 2026-02-25 at 14.14.36 (1).jpeg",
-      "/HOTEL THIAIS - 2021 /WhatsApp Image 2026-02-25 at 14.14.36.jpeg",
-      "/HOTEL THIAIS - 2021 /WhatsApp Image 2026-02-25 at 14.14.37 (1).jpeg",
-      "/HOTEL THIAIS - 2021 /WhatsApp Image 2026-02-25 at 14.14.37.jpeg",
+      "/hotel-thiais/WhatsApp Image 2026-02-25 at 14.14.35.jpeg",
+      "/hotel-thiais/WhatsApp Image 2026-02-25 at 14.14.36 (1).jpeg",
+      "/hotel-thiais/WhatsApp Image 2026-02-25 at 14.14.36.jpeg",
+      "/hotel-thiais/WhatsApp Image 2026-02-25 at 14.14.37 (1).jpeg",
+      "/hotel-thiais/WhatsApp Image 2026-02-25 at 14.14.37.jpeg",
     ],
     description: "Climatisation et petit équipement cuisine pour établissement hôtelier.",
     scope: ["Climatisation", "Petit équipement"],
@@ -805,8 +805,8 @@ export default function ProjectsPage() {
                   key={cat}
                   onClick={() => setActiveFilter(cat)}
                   className={`px-5 py-2 rounded-full text-[13px] tracking-wide transition-all duration-300 border ${activeFilter === cat
-                      ? "bg-gold text-white border-gold"
-                      : "bg-transparent text-muted-foreground/70 border-border/50 hover:text-foreground hover:border-border"
+                    ? "bg-gold text-white border-gold"
+                    : "bg-transparent text-muted-foreground/70 border-border/50 hover:text-foreground hover:border-border"
                     }`}
                 >
                   {cat}
@@ -1010,8 +1010,8 @@ export default function ProjectsPage() {
                         data-active={idx === modalImageIndex ? "true" : "false"}
                         onClick={() => setModalImageIndex(idx)}
                         className={`relative w-20 h-16 md:w-24 md:h-20 rounded-xl overflow-hidden shrink-0 border-2 transition-all duration-300 ${idx === modalImageIndex
-                            ? "border-gold shadow-lg scale-105"
-                            : "border-transparent opacity-40 hover:opacity-80 hover:scale-105"
+                          ? "border-gold shadow-lg scale-105"
+                          : "border-transparent opacity-40 hover:opacity-80 hover:scale-105"
                           }`}
                       >
                         <Image

@@ -12,17 +12,17 @@ import {
 } from "lucide-react";
 
 export const navLinks = [
-  { label: "Accueil",       href: "/",             icon: HomeIcon  },
-  { label: "Services",      href: "/#services",    icon: Briefcase },
-  { label: "Climatisation", href: "/climatisation",icon: Wind      },
-  { label: "Projets",       href: "/projects",     icon: Images    },
-  { label: "FAQ",           href: "/faq",          icon: HelpCircle},
+  { label: "Accueil", href: "/", icon: HomeIcon },
+  { label: "Services", href: "/#services", icon: Briefcase },
+  { label: "Climatisation", href: "/climatisation", icon: Wind },
+  { label: "Projets", href: "/projects", icon: Images },
+  { label: "FAQ", href: "/faq", icon: HelpCircle },
 ];
 
 export const slides = [
-  { id: 0, src: "/hero2.jpeg",  alt: "Bakery counter with POS terminals and marble finish" },
-  { id: 1, src: "/hero1.png",  alt: "Bakery interior with digital menu and display counter" },
-  { id: 2, src: "/boul1.png",  alt: "Marble counter with touchscreen POS systems" },
+  { id: 0, src: "/hero2.jpeg", alt: "Bakery counter with POS terminals and marble finish" },
+  { id: 1, src: "/hero1.png", alt: "Bakery interior with digital menu and display counter" },
+  { id: 2, src: "/boul1.png", alt: "Marble counter with touchscreen POS systems" },
 ];
 
 export const AUTO_PLAY_INTERVAL = 4000;
@@ -64,8 +64,8 @@ export const clientNames = [
 ];
 
 export const heroStats = [
-  { value: 24,    suffix: "+", label: "Ans d'expérience" },
-  { value: 35,    suffix: "+", label: "Projets réalisés"  },
+  { value: 24, suffix: "+", label: "Ans d'expérience" },
+  { value: 35, suffix: "+", label: "Projets réalisés" },
 ];
 
 export const featuredProjects = [
@@ -79,7 +79,7 @@ export const featuredProjects = [
     title: "Takumi Pâtisserie",
     category: "Pâtisserie",
     location: "Paris (75006)",
-    src: "/TAKUMI PATISSERIE /WhatsApp Image 2026-02-26 at 10.19.11.jpeg",
+    src: "/takumi-dauphine/WhatsApp Image 2026-02-26 at 10.19.11.jpeg",
   },
   {
     title: "Boulangerie L'Asnièroise",
@@ -90,10 +90,10 @@ export const featuredProjects = [
 ];
 
 export const services = [
-  { icon: Wrench,          num: "01", title: "Conception sur mesure", desc: "Chaque projet est unique. Du premier croquis à la livraison, nous concevons vos espaces selon votre activité et votre identité." },
-  { icon: Snowflake,       num: "02", title: "Vitrines réfrigérées",  desc: "Fabrication et installation de vitrines professionnelles, adaptées à chaque métier de bouche." },
-  { icon: UtensilsCrossed, num: "03", title: "Équipements CHR",       desc: "Du four à la table inox, nous fournissons et installons tous les équipements de restauration et d'hôtellerie." },
-  { icon: Store,           num: "04", title: "Agencement complet",    desc: "Du sol au plafond, l'intégralité de l'aménagement de votre commerce avec une finition irréprochable." },
-  { icon: MapPin,          num: "05", title: "Installation & Pose",   desc: "Nos équipes interviennent partout en France pour une pose soignée, dans les délais convenus." },
-  { icon: Briefcase,       num: "06", title: "Maintenance & SAV",     desc: "Service après-vente réactif. Pannes, entretien régulier, pièces détachées — nous gérons tout." },
+  { icon: Wrench, num: "01", title: "Conception sur mesure", desc: "Chaque projet est unique. Du premier croquis à la livraison, nous concevons vos espaces selon votre activité et votre identité." },
+  { icon: Snowflake, num: "02", title: "Vitrines réfrigérées", desc: "Fabrication et installation de vitrines professionnelles, adaptées à chaque métier de bouche." },
+  { icon: UtensilsCrossed, num: "03", title: "Équipements CHR", desc: "Du four à la table inox, nous fournissons et installons tous les équipements de restauration et d'hôtellerie." },
+  { icon: Store, num: "04", title: "Agencement complet", desc: "Du sol au plafond, l'intégralité de l'aménagement de votre commerce avec une finition irréprochable." },
+  { icon: MapPin, num: "05", title: "Installation & Pose", desc: "Nos équipes interviennent partout en France pour une pose soignée, dans les délais convenus." },
+  { icon: Briefcase, num: "06", title: "Maintenance & SAV", desc: "Service après-vente réactif. Pannes, entretien régulier, pièces détachées — nous gérons tout." },
 ];

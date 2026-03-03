@@ -180,7 +180,7 @@ export default function ClimatisationPage() {
                   fill
                   className="object-cover"
                   priority
-                  quality={85}
+                  quality={60}
                   sizes="(max-width: 1024px) 60vw, 400px"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
@@ -199,7 +199,7 @@ export default function ClimatisationPage() {
                   alt="Split mural professionnel"
                   fill
                   className="object-cover"
-                  quality={80}
+                  quality={60}
                   sizes="200px"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent" />
@@ -212,7 +212,7 @@ export default function ClimatisationPage() {
                   alt="Unité extérieure climatisation"
                   fill
                   className="object-cover"
-                  quality={80}
+                  quality={60}
                   sizes="200px"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent" />

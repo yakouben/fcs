@@ -124,7 +124,7 @@ export default function HeroSection() {
                     fill
                     className="object-cover"
                     priority
-                    quality={100}
+                    quality={60}
                     sizes="(max-width: 768px) 100vw, 1060px"
                   />
                 </motion.div>

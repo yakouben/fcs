@@ -711,9 +711,15 @@ export default function ProjectsPage() {
   const [activeFilter, setActiveFilter] = useState("Tous");
   const [selectedProject, setSelectedProject] = useState<(typeof projects)[0] | null>(null);
   const [modalImageIndex, setModalImageIndex] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(9);
 
   const filtered =
     activeFilter === "Tous" ? projects : projects.filter((p) => p.category === activeFilter);
+
+  // Reset pagination when filter changes
+  useEffect(() => {
+    setVisibleCount(9);
+  }, [activeFilter]);
 
   useEffect(() => {
     document.body.style.overflow = selectedProject ? "hidden" : "";
@@ -827,7 +833,7 @@ export default function ProjectsPage() {
               className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6"
             >
               <AnimatePresence mode="popLayout">
-                {filtered.map((project, i) => (
+                {filtered.slice(0, visibleCount).map((project, i) => (
                   <motion.article
                     key={project.id}
                     layout
@@ -845,7 +851,7 @@ export default function ProjectsPage() {
                       fill
                       className="object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      quality={85}
+                      quality={60}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
                     <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8 text-white">
@@ -878,6 +884,21 @@ export default function ProjectsPage() {
                 ))}
               </AnimatePresence>
             </motion.div>
+
+            {/* Pagination Button */}
+            {filtered.length > visibleCount && (
+              <div className="mt-16 flex justify-center">
+                <button
+                  onClick={() => setVisibleCount((prev) => prev + 9)}
+                  className="group relative inline-flex items-center gap-3 px-10 py-4 bg-gold text-white rounded-full text-sm font-light tracking-[0.2em] uppercase hover:bg-gold-light transition-all duration-300 shadow-xl shadow-gold/20"
+                >
+                  Voir plus de projets
+                  <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center group-hover:rotate-45 transition-transform duration-300">
+                    <ArrowUpRight className="h-3 w-3" />
+                  </div>
+                </button>
+              </div>
+            )}
           </div>
         </section>
       </main>
@@ -931,7 +952,7 @@ export default function ProjectsPage() {
                       alt={`${selectedProject.title} - ${modalImageIndex + 1}`}
                       fill
                       className="object-cover"
-                      quality={90}
+                      quality={60}
                       sizes="(max-width: 768px) 100vw, 60vw"
                     />
                   </motion.div>

@@ -76,18 +76,18 @@ const projects = [
     location: "Le Raincy (93340)",
     year: "2025",
     images: [
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.10.jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.11 (1).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.11 (2).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.11 (3).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.11.jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.12 (1).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.12 (2).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.12 (3).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.12 (4).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.12.jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.13 (1).jpeg",
-      "/MAISON GAÏA/WhatsApp Image 2026-02-26 at 10.33.13.jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.10.jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.11 (1).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.11 (2).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.11 (3).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.11.jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.12 (1).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.12 (2).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.12 (3).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.12 (4).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.12.jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.13 (1).jpeg",
+      "/maison-gaia/WhatsApp Image 2026-02-26 at 10.33.13.jpeg",
     ],
     description: "Création clé en main : façades, stores, plomberie, enseigne, vitrines et équipements.",
     scope: ["Façades", "Enseigne", "Plomberie"],
@@ -210,16 +210,16 @@ const projects = [
     location: "Nice (06300)",
     year: "2024",
     images: [
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.52 (1).jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.52 (2).jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.52.jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.53 (1).jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.53 (2).jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.53 (3).jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.53.jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.54 (1).jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.54 (2).jpeg",
-      "/BOULANGERIE MIETTE À MIETTE - NICE/WhatsApp Image 2026-02-26 at 10.11.54.jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.52 (1).jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.52 (2).jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.52.jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.53 (1).jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.53 (2).jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.53 (3).jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.53.jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.54 (1).jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.54 (2).jpeg",
+      "/miette-miette/WhatsApp Image 2026-02-26 at 10.11.54.jpeg",
     ],
     description: "Installation complète : vitrine, pantière, vitrine boissons, équipements CHR et laboratoire pâtissier.",
     scope: ["Laboratoire pâtissier", "CHR", "Froid"],
@@ -599,7 +599,7 @@ const projects = [
     description: "Fourniture et pose vitrine, meubles, menuiseries, équipement chaud et froid, chaises et tables.",
     scope: ["Menuiseries", "Équipement chaud/froid", "Mobilier"],
   },
-  
+
 
   /* 2021 Projects */
   {
@@ -804,11 +804,10 @@ export default function ProjectsPage() {
                 <button
                   key={cat}
                   onClick={() => setActiveFilter(cat)}
-                  className={`px-5 py-2 rounded-full text-[13px] tracking-wide transition-all duration-300 border ${
-                    activeFilter === cat
+                  className={`px-5 py-2 rounded-full text-[13px] tracking-wide transition-all duration-300 border ${activeFilter === cat
                       ? "bg-gold text-white border-gold"
                       : "bg-transparent text-muted-foreground/70 border-border/50 hover:text-foreground hover:border-border"
-                  }`}
+                    }`}
                 >
                   {cat}
                 </button>
@@ -913,54 +912,54 @@ export default function ProjectsPage() {
               </button>
 
               {/* Image side */}
-                <div
-                  className="relative w-full md:w-3/5 aspect-[4/3] md:aspect-auto shrink-0 bg-muted select-none"
-                  onTouchStart={handleTouchStart}
-                  onTouchEnd={handleTouchEnd}
-                >
-                  <AnimatePresence mode="wait">
-                    <motion.div
-                      key={modalImageIndex}
-                      initial={{ opacity: 0, x: 20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: -20 }}
-                      transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-                      className="absolute inset-0"
-                    >
-                      <Image
-                        src={selectedProject.images[modalImageIndex]}
-                        alt={`${selectedProject.title} - ${modalImageIndex + 1}`}
-                        fill
-                        className="object-cover"
-                        quality={90}
-                        sizes="(max-width: 768px) 100vw, 60vw"
-                      />
-                    </motion.div>
-                  </AnimatePresence>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-black/5" />
+              <div
+                className="relative w-full md:w-3/5 aspect-[4/3] md:aspect-auto shrink-0 bg-muted select-none"
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+              >
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={modalImageIndex}
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -20 }}
+                    transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                    className="absolute inset-0"
+                  >
+                    <Image
+                      src={selectedProject.images[modalImageIndex]}
+                      alt={`${selectedProject.title} - ${modalImageIndex + 1}`}
+                      fill
+                      className="object-cover"
+                      quality={90}
+                      sizes="(max-width: 768px) 100vw, 60vw"
+                    />
+                  </motion.div>
+                </AnimatePresence>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-black/5" />
 
-                  {/* Counter badge */}
-                  <div className="absolute top-5 left-5 z-10 px-3 py-1.5 rounded-full bg-black/30 backdrop-blur-md text-white text-xs font-medium tracking-widest border border-white/10">
-                    {modalImageIndex + 1} / {selectedProject.images.length}
-                  </div>
-
-                  {selectedProject.images.length > 1 && (
-                    <>
-                      <button
-                        onClick={prevImage}
-                        className="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-black/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-black/60 active:scale-95 transition-all border border-white/10"
-                      >
-                        <ChevronLeft className="h-5 w-5" />
-                      </button>
-                      <button
-                        onClick={nextImage}
-                        className="absolute right-4 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-black/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-black/60 active:scale-95 transition-all border border-white/10"
-                      >
-                        <ChevronRight className="h-5 w-5" />
-                      </button>
-                    </>
-                  )}
+                {/* Counter badge */}
+                <div className="absolute top-5 left-5 z-10 px-3 py-1.5 rounded-full bg-black/30 backdrop-blur-md text-white text-xs font-medium tracking-widest border border-white/10">
+                  {modalImageIndex + 1} / {selectedProject.images.length}
                 </div>
+
+                {selectedProject.images.length > 1 && (
+                  <>
+                    <button
+                      onClick={prevImage}
+                      className="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-black/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-black/60 active:scale-95 transition-all border border-white/10"
+                    >
+                      <ChevronLeft className="h-5 w-5" />
+                    </button>
+                    <button
+                      onClick={nextImage}
+                      className="absolute right-4 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-black/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-black/60 active:scale-95 transition-all border border-white/10"
+                    >
+                      <ChevronRight className="h-5 w-5" />
+                    </button>
+                  </>
+                )}
+              </div>
 
               {/* Content side */}
               <div className="flex flex-col p-8 md:p-12 overflow-y-auto w-full">
@@ -1000,37 +999,36 @@ export default function ProjectsPage() {
                   </div>
                 </div>
 
-                  {selectedProject.images.length > 1 && (
-                    <div
-                      ref={thumbsRef}
-                      className="flex gap-2.5 mt-8 overflow-x-auto pb-2 scrollbar-hide"
-                    >
-                      {selectedProject.images.map((img, idx) => (
-                        <button
-                          key={idx}
-                          data-active={idx === modalImageIndex ? "true" : "false"}
-                          onClick={() => setModalImageIndex(idx)}
-                          className={`relative w-20 h-16 md:w-24 md:h-20 rounded-xl overflow-hidden shrink-0 border-2 transition-all duration-300 ${
-                            idx === modalImageIndex
-                              ? "border-gold shadow-lg scale-105"
-                              : "border-transparent opacity-40 hover:opacity-80 hover:scale-105"
+                {selectedProject.images.length > 1 && (
+                  <div
+                    ref={thumbsRef}
+                    className="flex gap-2.5 mt-8 overflow-x-auto pb-2 scrollbar-hide"
+                  >
+                    {selectedProject.images.map((img, idx) => (
+                      <button
+                        key={idx}
+                        data-active={idx === modalImageIndex ? "true" : "false"}
+                        onClick={() => setModalImageIndex(idx)}
+                        className={`relative w-20 h-16 md:w-24 md:h-20 rounded-xl overflow-hidden shrink-0 border-2 transition-all duration-300 ${idx === modalImageIndex
+                            ? "border-gold shadow-lg scale-105"
+                            : "border-transparent opacity-40 hover:opacity-80 hover:scale-105"
                           }`}
-                        >
-                          <Image
-                            src={img}
-                            alt={`Photo ${idx + 1}`}
-                            fill
-                            className="object-cover"
-                            sizes="96px"
-                            quality={40}
-                          />
-                          {idx === modalImageIndex && (
-                            <div className="absolute inset-0 ring-2 ring-gold/60 rounded-xl" />
-                          )}
-                        </button>
-                      ))}
-                    </div>
-                  )}
+                      >
+                        <Image
+                          src={img}
+                          alt={`Photo ${idx + 1}`}
+                          fill
+                          className="object-cover"
+                          sizes="96px"
+                          quality={40}
+                        />
+                        {idx === modalImageIndex && (
+                          <div className="absolute inset-0 ring-2 ring-gold/60 rounded-xl" />
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
             </motion.div>
           </motion.div>

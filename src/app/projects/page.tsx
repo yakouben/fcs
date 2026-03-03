@@ -705,7 +705,7 @@ const projects = [
   },
 ];
 
-const categories = ["Tous", "Boulangerie", "Boucherie"];
+const categories = ["Tous", "Boulangerie", "Pâtisserie", "Boucherie"];
 
 export default function ProjectsPage() {
   const [activeFilter, setActiveFilter] = useState("Tous");

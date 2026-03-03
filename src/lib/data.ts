@@ -35,16 +35,16 @@ export const categories = [
     radius: "rounded-[2rem] rounded-tl-[4rem]",
   },
   {
-    name: "Boucherie",
-    description: "Comptoirs frigorifiques et présentoirs sur mesure.",
-    src: "/bouch1.webp",
-    radius: "rounded-[2rem] rounded-br-[4rem]",
-  },
-  {
     name: "Pâtisserie",
     description: "Vitrines d'exposition élégantes et systèmes de froid haute performance.",
     src: "/pati21.webp",
     radius: "rounded-[2rem] rounded-tr-[4rem]",
+  },
+  {
+    name: "Boucherie",
+    description: "Comptoirs frigorifiques et présentoirs sur mesure.",
+    src: "/bouch1.webp",
+    radius: "rounded-[2rem] rounded-br-[4rem]",
   },
 ];
 
@@ -64,7 +64,7 @@ export const clientNames = [
 ];
 
 export const heroStats = [
-  { value: 24, suffix: "+", label: "Ans d'expérience" },
+  { value: 24, suffix: "+", label: "Année d’expérience" },
   { value: 35, suffix: "+", label: "Projets réalisés" },
 ];
 

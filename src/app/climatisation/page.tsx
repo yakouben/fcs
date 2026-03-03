@@ -67,7 +67,7 @@ const services = [
 
 const stats = [
   { icon: ShieldCheck, value: null, label: "RGE", text: "Certifié" },
-  { icon: Wind, value: 24, label: "Ans d'expérience", text: null },
+  { icon: Wind, value: 24, label: "Année d’expérience", text: null },
 ];
 
 const faq = [

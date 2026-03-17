@@ -20,30 +20,37 @@ export const navLinks = [
 ];
 
 export const slides = [
-  { id: 0, src: "/hero2.jpeg", alt: "Bakery counter with POS terminals and marble finish" },
-  { id: 1, src: "/hero1.png", alt: "Bakery interior with digital menu and display counter" },
-  { id: 2, src: "/boul1.png", alt: "Marble counter with touchscreen POS systems" },
+  { id: 0, src: "/heropic-1.jpeg", alt: "FCS Réalisation 1" },
+  { id: 1, src: "/heropic-2.jpeg", alt: "FCS Réalisation 2" },
+  { id: 2, src: "/heropic-3.jpeg", alt: "FCS Réalisation 3" },
+  { id: 3, src: "/heropic-4.jpeg", alt: "FCS Réalisation 4" },
 ];
 
 export const AUTO_PLAY_INTERVAL = 4000;
 
 export const categories = [
   {
-    name: "Boulangerie",
-    description: "Vitrines réfrigérées, fours et agencement complet pour artisans boulangers.",
+    name: "Boulangerie-pâtisserie",
+    description: "Vitrines réfrigérées, fournils et agencement complet pour artisans.",
     src: "/boul1c.webp",
     radius: "rounded-[2rem] rounded-tl-[4rem]",
   },
   {
-    name: "Pâtisserie",
-    description: "Vitrines d'exposition élégantes et systèmes de froid haute performance.",
-    src: "/pati21.webp",
+    name: "Chocolaterie",
+    description: "Vitrines d'exposition climatisées et systèmes de froid haute performance.",
+    src: "/CHOCOLATERIE DE NEUVILLE/WhatsApp Image 2026-02-26 at 10.13.21.jpeg",
     radius: "rounded-[2rem] rounded-tr-[4rem]",
   },
   {
     name: "Boucherie",
-    description: "Comptoirs frigorifiques et présentoirs sur mesure.",
+    description: "Comptoirs frigorifiques et présentoirs sur mesure haute qualité.",
     src: "/bouch1.webp",
+    radius: "rounded-[2rem] rounded-bl-[4rem]",
+  },
+  {
+    name: "Restaurant",
+    description: "Cuisines professionnelles et agencement complet de salles.",
+    src: "/PIZZERIA/WhatsApp Image 2026-02-25 at 14.31.31.jpeg",
     radius: "rounded-[2rem] rounded-br-[4rem]",
   },
 ];
@@ -61,6 +68,40 @@ export const clientNames = [
   "La Pralinoise",
   "Grain d'Or",
   "Miette à Miette",
+];
+
+export const partnerNames = [
+  "FOUR MAP",
+  "PANIMATIC",
+  "VMI",
+  "MALLARD-FERRIERE",
+  "GECOMA",
+  "PVLAB",
+  "TEFCOLD",
+  "STALGAST",
+  "GINOX",
+  "JAC",
+  "ACTIF",
+  "MAFTER BOURGEAT",
+  "LAVINOX",
+  "CONTI",
+  "DAP",
+  "ISOTECH",
+  "SEDA",
+  "UNOX",
+  "EUROFOURS",
+  "KRAMPOUZ",
+  "ENODIS",
+  "LIEBHERR",
+  "PIZZAGROUP",
+  "TRUE",
+  "TOURNUS",
+  "SOREMA",
+  "SALVA",
+  "RONDO",
+  "ROTISOL",
+  "ROBOT COUPE",
+  "RATIONAL",
 ];
 
 export const heroStats = [
@@ -92,8 +133,9 @@ export const featuredProjects = [
 export const services = [
   { icon: Wrench, num: "01", title: "Conception sur mesure", desc: "Chaque projet est unique. Du premier croquis à la livraison, nous concevons vos espaces selon votre activité et votre identité." },
   { icon: Snowflake, num: "02", title: "Vitrines réfrigérées", desc: "Fabrication et installation de vitrines professionnelles, adaptées à chaque métier de bouche." },
-  { icon: UtensilsCrossed, num: "03", title: "Équipements CHR", desc: "Du four à la table inox, nous fournissons et installons tous les équipements de restauration et d'hôtellerie." },
-  { icon: Store, num: "04", title: "Agencement complet", desc: "Du sol au plafond, l'intégralité de l'aménagement de votre commerce avec une finition irréprochable." },
-  { icon: MapPin, num: "05", title: "Installation & Pose", desc: "Nos équipes interviennent partout en France pour une pose soignée, dans les délais convenus." },
-  { icon: Briefcase, num: "06", title: "Maintenance & SAV", desc: "Service après-vente réactif. Pannes, entretien régulier, pièces détachées — nous gérons tout." },
+  { icon: UtensilsCrossed, num: "03", title: "Materiel de boulangerie", desc: "Equipements  complets du laboratoire et fournil." },
+  { icon: Store, num: "04", title: "Agencement complet", desc: "Du sol au plafond, l'intégralité de l'aménagement de votre commerce ." },
+  { icon: UtensilsCrossed, num: "05", title: "Équipements CHR", desc: "Du four à la table inox, nous fournissons et installons tous les équipements de restauration et d'hôtellerie." },
+  { icon: MapPin, num: "06", title: "Installation & Pose", desc: "Nos équipes interviennent partout en France." },
+  { icon: Briefcase, num: "07", title: "Service après-vente réalisé par nos techniciens." },
 ];

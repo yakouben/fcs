@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { slides, AUTO_PLAY_INTERVAL, heroStats, clientNames } from "@/lib/data";
+import { slides, AUTO_PLAY_INTERVAL, heroStats, clientNames, partnerNames } from "@/lib/data";
 
 function useCountUp(target: number, duration = 1800, start = false) {
   const [count, setCount] = useState(0);
@@ -55,11 +55,10 @@ export default function HeroSection() {
         {/* Hero Content */}
           <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-10">
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-foreground leading-[1.05]">
-              <span className="uppercase">Fabrication de vitrines</span>
+              <span className="uppercase">FCS</span>
               <br />
               <em className="font-serif italic normal-case">
-                <span className="text-gold font-extralight"> &amp; </span>
-                d&apos;Agencement
+                La qualité notre métier
               </em>
             </h1>
 
@@ -148,27 +147,55 @@ export default function HeroSection() {
           </div>
         </div>
 
-          {/* Client marquee */}
-          <div className="relative flex items-center gap-4 md:gap-10 mt-8 md:mt-16 py-6 border-y border-border/5">
-            <div className="shrink-0 flex items-center gap-3">
-              <div className="h-1 w-1 md:h-1.5 md:w-1.5 rounded-full bg-gold/50 shadow-[0_0_8px_rgba(198,169,98,0.3)]" />
-              <span className="text-[9px] md:text-[11px] font-medium tracking-[0.3em] uppercase text-gold whitespace-nowrap">
-                Nos réalisations :
-              </span>
+          {/* Marquees */}
+          <div className="mt-8 md:mt-16 flex flex-col gap-2">
+            {/* Client marquee */}
+            <div className="relative flex items-center gap-4 md:gap-10 py-4 border-y border-border/5">
+              <div className="shrink-0 flex items-center gap-3">
+                <div className="h-1 w-1 md:h-1.5 md:w-1.5 rounded-full bg-gold/50 shadow-[0_0_8px_rgba(198,169,98,0.3)]" />
+                <span className="text-[9px] md:text-[11px] font-medium tracking-[0.3em] uppercase text-gold whitespace-nowrap">
+                  Nos clients :
+                </span>
+              </div>
+
+              <div className="relative flex-1 overflow-hidden">
+                <div className="absolute inset-y-0 left-0 w-12 md:w-24 bg-gradient-to-r from-background to-transparent z-10" />
+                <div className="absolute inset-y-0 right-0 w-12 md:w-24 bg-gradient-to-l from-background to-transparent z-10" />
+                <div className="flex w-max animate-marquee" style={{ animationDuration: "35s" }}>
+                  {[...clientNames, ...clientNames].map((name, i) => (
+                    <span
+                      key={i}
+                      className="mx-6 md:mx-10 whitespace-nowrap text-[13px] md:text-base italic text-muted-foreground/35 font-serif tracking-widest"
+                    >
+                      {name}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
 
-            <div className="relative flex-1 overflow-hidden">
-              <div className="absolute inset-y-0 left-0 w-12 md:w-24 bg-gradient-to-r from-background to-transparent z-10" />
-              <div className="absolute inset-y-0 right-0 w-12 md:w-24 bg-gradient-to-l from-background to-transparent z-10" />
-              <div className="flex w-max animate-marquee" style={{ animationDuration: "35s" }}>
-                {[...clientNames, ...clientNames].map((name, i) => (
-                  <span
-                    key={i}
-                    className="mx-6 md:mx-10 whitespace-nowrap text-[13px] md:text-base italic text-muted-foreground/35 font-serif tracking-widest"
-                  >
-                    {name}
-                  </span>
-                ))}
+            {/* Partner marquee */}
+            <div className="relative flex items-center gap-4 md:gap-10 py-4 border-b border-border/5">
+              <div className="shrink-0 flex items-center gap-3">
+                <div className="h-1 w-1 md:h-1.5 md:w-1.5 rounded-full bg-gold/50 shadow-[0_0_8px_rgba(198,169,98,0.3)]" />
+                <span className="text-[9px] md:text-[11px] font-medium tracking-[0.3em] uppercase text-gold whitespace-nowrap">
+                  Nos partenaires :
+                </span>
+              </div>
+
+              <div className="relative flex-1 overflow-hidden">
+                <div className="absolute inset-y-0 left-0 w-12 md:w-24 bg-gradient-to-r from-background to-transparent z-10" />
+                <div className="absolute inset-y-0 right-0 w-12 md:w-24 bg-gradient-to-l from-background to-transparent z-10" />
+                <div className="flex w-max animate-marquee-reverse" style={{ animationDuration: "50s" }}>
+                  {[...partnerNames, ...partnerNames].map((name, i) => (
+                    <span
+                      key={i}
+                      className="mx-6 md:mx-10 whitespace-nowrap text-[13px] md:text-base italic text-muted-foreground/35 font-serif tracking-widest"
+                    >
+                      {name}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

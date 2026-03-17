@@ -786,7 +786,7 @@ export default function ProjectsPage() {
                   Retour à l&apos;accueil
                 </Link>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-foreground uppercase leading-[1.05]">
-                  NOS Projets
+                 Nos clients
                   <br />
                   <em className="font-serif italic normal-case font-extralight">nos projets</em>
                 </h1>
